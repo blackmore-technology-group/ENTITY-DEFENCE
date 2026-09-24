@@ -1,0 +1,27 @@
+{
+  "external_standards_are_mapped_not_redefined": true,
+  "mappings": [
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "asset_id": "descriptor.public_asset_id",
+        "originator": "descriptor.originator_ref",
+        "release": "descriptor.release_status"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "PUBLIC-DATA-GOVERNANCE"
+    },
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "dissemination": "descriptor.dissemination_rule",
+        "originator": "descriptor.originator_ref"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "ORIGINATOR-CONTROL"
+    }
+  ],
+  "package": "defence-public"
+}

@@ -1,0 +1,173 @@
+{
+  "package": "defence-public",
+  "templates": {
+    "custody_record": {
+      "asset_kind": "custody_record",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "DOCUMENT",
+      "package": "defence-public",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "classified_material_prohibited": true,
+        "default": "RESTRICTED_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:defence-public@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "device": {
+      "asset_kind": "device",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "DEVICE",
+      "package": "defence-public",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "classified_material_prohibited": true,
+        "default": "RESTRICTED_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:defence-public@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "model": {
+      "asset_kind": "model",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "MODEL",
+      "package": "defence-public",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "classified_material_prohibited": true,
+        "default": "RESTRICTED_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:defence-public@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "public_asset": {
+      "asset_kind": "public_asset",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "PHYSICAL_ASSET",
+      "package": "defence-public",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "classified_material_prohibited": true,
+        "default": "RESTRICTED_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:defence-public@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "public_dataset": {
+      "asset_kind": "public_dataset",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "DATASET",
+      "package": "defence-public",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "classified_material_prohibited": true,
+        "default": "RESTRICTED_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:defence-public@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "software": {
+      "asset_kind": "software",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "SOFTWARE",
+      "package": "defence-public",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "classified_material_prohibited": true,
+        "default": "RESTRICTED_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:defence-public@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    }
+  }
+}

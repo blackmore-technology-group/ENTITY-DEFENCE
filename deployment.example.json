@@ -1,0 +1,12 @@
+{
+  "asset_kind": "public_asset",
+  "configuration": {
+    "authority_source": "CONFIGURE-ME",
+    "classification": "UNCLASSIFIED",
+    "jurisdiction": "CONFIGURE-ME",
+    "organization": "Example Organization",
+    "release_policy": "PUBLIC-UNCLASSIFIED"
+  },
+  "note": "Replace CONFIGURE-ME values with organization-specific facts before deployment.",
+  "package": "defence-public"
+}

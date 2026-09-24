@@ -1,0 +1,28 @@
+{
+  "core_semantics_changed": false,
+  "invalid": [
+    {
+      "asset_kind": "public_asset",
+      "configuration": {},
+      "expected_valid": false
+    }
+  ],
+  "profile_stack": [
+    "entity-profile:global@1.0",
+    "entity-profile:defence-public@1.0"
+  ],
+  "schema": "entity-v3-industry-package-conformance-v1",
+  "valid": [
+    {
+      "asset_kind": "public_asset",
+      "configuration": {
+        "authority_source": "CONFIGURE-ME",
+        "classification": "UNCLASSIFIED",
+        "jurisdiction": "CONFIGURE-ME",
+        "organization": "Example Organization",
+        "release_policy": "PUBLIC-UNCLASSIFIED"
+      },
+      "expected_valid": true
+    }
+  ]
+}
