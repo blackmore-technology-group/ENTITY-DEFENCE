@@ -1,18 +1,20 @@
 # ENTITY-DEFENCE
 
-**ENTITY v3.4.0 executable Public / Unclassified Defence implementation package.**
+**Sealed ENTITY v3.4.0 Public / Unclassified Defence implementation package, evaluated in the current ENTITY v3.4.2 ecosystem.**
 
-**Current core compatibility:** ENTITY v3.4.1 — Protocol Origin Lineage & Sovereign User Bootstrap. The sealed domain-package payload remains v3.4.0 and was requalified unchanged against v3.4.1.
+**Current canonical core release:** [ENTITY v3.4.2 — Canonical BTDU Release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.2).
+
+The sealed domain-package payload in this repository remains the historical v3.4.0 package. Its recorded package-specific requalification against v3.4.1 remains historical evidence; this README does not rewrite that evidence into a new v3.4.2 package qualification. The current v3.4.2 adoption path is open for clean-clone external evaluation.
 
 This repository configures the **one ENTITY Global Passport** for public/unclassified defence-domain assets and workflows. It does not define a separate passport protocol and does not modify ENTITY core semantics.
 
-[ENTITY](https://github.com/blackmore-technology-group/ENTITY) · [v3.4.1 core release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.1) · [Global Passport documentation](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/v3.4/GLOBAL_PASSPORT.md) · [Domain packages](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/v3.4/DOMAIN_PACKAGES.md)
+[ENTITY](https://github.com/blackmore-technology-group/ENTITY) · [v3.4.2 release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.2) · [ENTITY documentation](https://blackmore-technology-group.github.io/ENTITY-DOCS/) · [Defence/Public-Unclassified domain documentation](https://blackmore-technology-group.github.io/ENTITY-DOCS/domains/defence-public-unclassified.html) · [Domain-package evaluation task](https://github.com/blackmore-technology-group/ENTITY/issues/46)
 
 ## What this package is for
 
 Use ENTITY-DEFENCE as the starting point when you need persistent provenance, scoped authority, custody history and rights context around **public or unclassified** defence-domain assets while keeping infrastructure possession separate from sovereign authority.
 
-The v3.4 release describes this package around public/unclassified asset, originator, custody and provenance patterns. Classified material is explicitly outside this package and should not be introduced into this repository or its public workflows.
+The sealed package describes public/unclassified asset, originator, custody and provenance patterns. Classified material is explicitly outside this package and should not be introduced into this repository or its public workflows.
 
 Typical evaluation paths include:
 
@@ -42,21 +44,25 @@ Select package → configure organization facts → connect systems/data → ing
 python tools/verify_package.py
 ```
 
-The verifier checks the repository inventory and the package/source-release binding.
+The verifier checks repository inventory and the sealed package/source-release binding. A successful package verification does not, by itself, establish a new v3.4.2 qualification claim.
 
-## Release binding
+## Sealed package provenance
 
 - Core source: `blackmore-technology-group/ENTITY` PR #41
 - Source head: `2d7529fbadb4dd04840d62b751294bf9a7f70ed5`
 - Release snapshot: `3ff0e51ca2daabf50bc517e9c6e3438e8c150f1560cca6c99621621e3c855a90`
 - Package SHA-256: `7edc52344822e370f937b12d05258b5cb3283756dadb5c1885dd93f126cf9887`
 
-## Go deeper
+These values describe the sealed historical package payload and should not be rewritten merely because the current core release advances.
 
-- [ENTITY v3.4.1 core](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.1)
-- [Developer portal](https://github.com/blackmore-technology-group/ENTITY/blob/main/DEVELOPERS.md)
-- [Engineering evidence](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/ENGINEERING_EVIDENCE.md)
-- [Open contributor tasks](https://github.com/blackmore-technology-group/ENTITY/issues?q=is%3Aissue+is%3Aopen)
+## Current evaluation path
+
+- [ENTITY v3.4.2 core release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.2)
+- [Defence/Public-Unclassified domain manual](https://blackmore-technology-group.github.io/ENTITY-DOCS/domains/defence-public-unclassified.html)
+- [Data provenance guide](https://blackmore-technology-group.github.io/ENTITY-DOCS/guides/data-provenance-protocol.html)
+- [Portable authority and recovery](https://blackmore-technology-group.github.io/ENTITY-DOCS/guides/portable-digital-authority-recovery.html)
+- [Try one current domain-package path from a clean clone](https://github.com/blackmore-technology-group/ENTITY/issues/46)
+- [External verification challenge](https://github.com/blackmore-technology-group/ENTITY/issues/55)
 
 ## Security and scope boundary
 
